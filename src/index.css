@@ -1,0 +1,52 @@
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.col-card {
+  max-height: 300px;
+  margin: 20px;
+  width: 400px;
+  /* height: 400px; */
+  /* align-items: center; */
+  display: flex;
+  margin: 5px;
+  /* width: 50%; */
+  /* height: 200px; */
+  padding: 5px;
+}
+
+.col-card:hover {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.col-img {
+  width: 50%; /* Ensure the image takes up the full width of its container */
+  border-radius: 35px;
+  padding: 5px;
+  height: auto;
+}
+
+.shimmer-card {
+  margin: 20px;
+  width: 200px;
+  height: 400px;
+  background-color: #f0f0f0;
+}
+
+.text-container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  -webkit-line-clamp: 3;
+  text-overflow: ellipsis;
+}
